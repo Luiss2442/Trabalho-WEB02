@@ -1,0 +1,16 @@
+
+{
+    "cidade": "Guarapuava",
+    "estado": "PR",
+    "atualizado_em": "2023-11-15",
+    "clima": {
+      "temperatura": 22,
+      "umidade": 78,
+      "condicao": "Parcialmente nublado",
+      "sensacao_termica": 24,
+      "vento_velocidade": 15,
+      "vento_direcao": "SE",
+      "pressao": 1012,
+      "icone": "partly-cloudy-day"
+    }
+  }
