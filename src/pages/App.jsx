@@ -12,10 +12,10 @@ export default function App() {
   return (
     <Router>
       <div className="min-h-screen flex flex-col bg-gray-50">
-        {/* Cabeçalho */}
+      
         <Header />
         
-        {/* Conteúdo Principal */}
+       
         <main className="flex-grow container mx-auto p-4">
           <Routes>
             <Route path="/" element={<Login />} />
@@ -29,7 +29,7 @@ export default function App() {
           </Routes>
         </main>
         
-        {/* Rodapé */}
+       
         <Footer />
       </div>
     </Router>

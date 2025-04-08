@@ -5,7 +5,6 @@ export default function EditarProduto() {
   const { id } = useParams();
   const navigate = useNavigate();
   
-  // Mock de dados - substitua por sua fonte real de dados
   const mockProdutos = [
     {
       id: 1,
@@ -29,7 +28,6 @@ export default function EditarProduto() {
     valorUnitario: 0
   });
 
-  // Carrega o produto ao montar o componente
   useEffect(() => {
     const produtoEncontrado = mockProdutos.find(p => p.id === parseInt(id));
     if (produtoEncontrado) {
@@ -51,10 +49,10 @@ export default function EditarProduto() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Aqui você deve implementar a atualização no seu estado ou API
+    
     console.log('Produto atualizado:', produto);
     
-    // Simulando atualização
+    
     alert('Produto atualizado com sucesso!');
     navigate('/produtos');
   };

@@ -24,7 +24,6 @@ export default function CadastroProduto() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Lógica para salvar produto
     navigate('/produtos');
   };
 

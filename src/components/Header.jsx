@@ -12,8 +12,8 @@ export default function Header() {
     <header className="bg-red-600 text-white shadow-lg">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold hover:text-red-200 flex items-center">
-          <FaHome className="mr-2" /> {/* Ícone da Home */}
-          <span className="hidden sm:inline">Trabalho Desenvolvimento Web02</span> {/* Texto escondido em mobile */}
+          <FaHome className="mr-2" /> 
+          <span className="hidden sm:inline">Trabalho Desenvolvimento Web02</span> 
         </Link>
         
         <nav>

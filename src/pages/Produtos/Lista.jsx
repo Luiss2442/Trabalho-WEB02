@@ -6,7 +6,7 @@ export default function ListaProdutos() {
   const [filtro, setFiltro] = useState('');
 
   useEffect(() => {
-    // Simulando busca de produtos
+
     const mockProdutos = [
       {
         id: 1,

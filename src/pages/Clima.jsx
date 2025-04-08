@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function Clima() {
-  // Dados estáticos de clima para Guarapuava
+
   const [clima] = useState({
     cidade: 'Guarapuava',
     temperatura: '12°C',
